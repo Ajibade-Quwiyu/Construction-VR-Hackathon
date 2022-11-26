@@ -70,3 +70,13 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/BNG Framework
+Assets\Oculus\Interaction\Samples
+Assets\Oculus\LipSync\Plugins
+Assets\Oculus\LipSync\Assets
+Assets\Oculus\LipSync\Models
+Assets\Oculus\Interaction\Samples
+Assets\Oculus\SampleFramework\Usage
+Assets\Oculus\SampleFramework\Core
+Assets\Oculus\Spatializer
+Assets\Oculus\VR
