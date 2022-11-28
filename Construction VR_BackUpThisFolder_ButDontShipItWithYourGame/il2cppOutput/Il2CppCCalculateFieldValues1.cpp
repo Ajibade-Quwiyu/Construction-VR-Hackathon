@@ -796,6 +796,8 @@ struct Anchor_t1A44EE28464A2847EB0572B5729E4B948195F70F;
 struct AnchorUIManager_tE4FA8159C9C3B05C40FA71D063FE7B47DAE3F8BE;
 // UnityEngine.Animation
 struct Animation_t6593B06C39E3B139808B19F2C719C860F3F61040;
+// AnimationController
+struct AnimationController_t3FB186F57A51155F3AA9120B20218243E11220C9;
 // UnityEngine.AnimationCurve
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
 // UnityEngine.Animator
@@ -9129,14 +9131,14 @@ struct U3CCheckForRaycastU3Ed__13_t2C026C26259C274D5F712E1853DF3EA93652B8B4  : p
 	Projectile_t441B9F012966D07B6434CFD64993A47E4DDEBD2C* ___U3CU3E4__this_2;
 };
 
-// QuestionsManager/<Recorder>d__11
-struct U3CRecorderU3Ed__11_t27924122C56D93BED5EF086671C0392503C51748  : public RuntimeObject
+// QuestionsManager/<Recorder>d__12
+struct U3CRecorderU3Ed__12_t3FF409F9DC32188907D234AE50E57B742A06375C  : public RuntimeObject
 {
-	// System.Int32 QuestionsManager/<Recorder>d__11::<>1__state
+	// System.Int32 QuestionsManager/<Recorder>d__12::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object QuestionsManager/<Recorder>d__11::<>2__current
+	// System.Object QuestionsManager/<Recorder>d__12::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// QuestionsManager QuestionsManager/<Recorder>d__11::<>4__this
+	// QuestionsManager QuestionsManager/<Recorder>d__12::<>4__this
 	QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA* ___U3CU3E4__this_2;
 };
 
@@ -37032,6 +37034,8 @@ struct QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA  : public Mono
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___wrong_10;
 	// UnityEngine.GameObject QuestionsManager::next_Question
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___next_Question_11;
+	// AnimationController QuestionsManager::animationController
+	AnimationController_t3FB186F57A51155F3AA9120B20218243E11220C9* ___animationController_12;
 };
 
 struct QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA_StaticFields
@@ -38349,6 +38353,8 @@ struct UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F  : public MonoBehavio
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___instruction_5;
 	// UnityEngine.GameObject UiManager::next_Instruction
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___next_Instruction_6;
+	// AnimationController UiManager::animationController
+	AnimationController_t3FB186F57A51155F3AA9120B20218243E11220C9* ___animationController_7;
 };
 
 // UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
@@ -44228,13 +44234,13 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4836[2] =
 	static_cast<int32_t>(offsetof(Background_t2B2D30FB9FF5E93B0EF68DDCF11B375D472338CB, ___carrier_4)),static_cast<int32_t>(offsetof(Background_t2B2D30FB9FF5E93B0EF68DDCF11B375D472338CB, ___Carrier_Pos_5)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4837[3] = 
 {
-	static_cast<int32_t>(offsetof(U3CRecorderU3Ed__11_t27924122C56D93BED5EF086671C0392503C51748, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CRecorderU3Ed__11_t27924122C56D93BED5EF086671C0392503C51748, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CRecorderU3Ed__11_t27924122C56D93BED5EF086671C0392503C51748, ___U3CU3E4__this_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4838[8] = 
+	static_cast<int32_t>(offsetof(U3CRecorderU3Ed__12_t3FF409F9DC32188907D234AE50E57B742A06375C, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CRecorderU3Ed__12_t3FF409F9DC32188907D234AE50E57B742A06375C, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CRecorderU3Ed__12_t3FF409F9DC32188907D234AE50E57B742A06375C, ___U3CU3E4__this_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4838[9] = 
 {
-	static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___count_4)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA_StaticFields, ___counter_5)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___passed_UI_6)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___wrong_UI_7)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___text_8)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___passed_9)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___wrong_10)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___next_Question_11)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4839[3] = 
+	static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___count_4)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA_StaticFields, ___counter_5)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___passed_UI_6)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___wrong_UI_7)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___text_8)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___passed_9)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___wrong_10)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___next_Question_11)),static_cast<int32_t>(offsetof(QuestionsManager_t688EF2B89ED531F17ABAC9D139017895406DF5FA, ___animationController_12)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4839[4] = 
 {
-	static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___oK_4)),static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___instruction_5)),static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___next_Instruction_6)),};
+	static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___oK_4)),static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___instruction_5)),static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___next_Instruction_6)),static_cast<int32_t>(offsetof(UiManager_tD893C8D36318160D6F63738C3B33FE3C22D9688F, ___animationController_7)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4840[3] = 
 {
 	static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatInputField_4)),static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatDisplayOutput_5)),static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatScrollbar_6)),};

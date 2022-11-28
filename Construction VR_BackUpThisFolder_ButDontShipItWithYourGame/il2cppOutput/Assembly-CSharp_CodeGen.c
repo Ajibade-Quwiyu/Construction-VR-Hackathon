@@ -1463,30 +1463,30 @@ extern void QuestionsManager_Wrong_mCE33B737BC7D4AC99DC452A99C428635D57FBA90 (vo
 extern void QuestionsManager_Recorder_m98E9BEA38FE99A2F0BFD01D6D009653E25F4B08C (void);
 // 0x000002DD System.Void QuestionsManager::.ctor()
 extern void QuestionsManager__ctor_mE931E2A02D479349C8707708F03B8012F033CC86 (void);
-// 0x000002DE System.Void QuestionsManager::<Start>b__8_0()
-extern void QuestionsManager_U3CStartU3Eb__8_0_m69A66B889899BFE4A77AECC162602E4DC3CBD8AE (void);
-// 0x000002DF System.Void QuestionsManager::<Start>b__8_1()
-extern void QuestionsManager_U3CStartU3Eb__8_1_m319F2B390552CBE4C78830683053CDA1F85EBEF5 (void);
-// 0x000002E0 System.Void QuestionsManager/<Recorder>d__11::.ctor(System.Int32)
-extern void U3CRecorderU3Ed__11__ctor_mECA949FDAF5484DFD6D584617793C15D362D0B44 (void);
-// 0x000002E1 System.Void QuestionsManager/<Recorder>d__11::System.IDisposable.Dispose()
-extern void U3CRecorderU3Ed__11_System_IDisposable_Dispose_m95E4872ADCE4097B01EB278562A1B73A99D7693D (void);
-// 0x000002E2 System.Boolean QuestionsManager/<Recorder>d__11::MoveNext()
-extern void U3CRecorderU3Ed__11_MoveNext_mADB39695792156FF2CE1333381F7A92C00EEF177 (void);
-// 0x000002E3 System.Object QuestionsManager/<Recorder>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CRecorderU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9562D04810CA77291983AEC15E73038DA23BDF4E (void);
-// 0x000002E4 System.Void QuestionsManager/<Recorder>d__11::System.Collections.IEnumerator.Reset()
-extern void U3CRecorderU3Ed__11_System_Collections_IEnumerator_Reset_m14B77CB2570435F0AB60B4BA67E39BC5F88287D0 (void);
-// 0x000002E5 System.Object QuestionsManager/<Recorder>d__11::System.Collections.IEnumerator.get_Current()
-extern void U3CRecorderU3Ed__11_System_Collections_IEnumerator_get_Current_mF77D6147379915D16BB317A26C00B391245AC279 (void);
+// 0x000002DE System.Void QuestionsManager::<Start>b__9_0()
+extern void QuestionsManager_U3CStartU3Eb__9_0_mE809DA53EC4AB4300321CDD15DA2C6E8372705A0 (void);
+// 0x000002DF System.Void QuestionsManager::<Start>b__9_1()
+extern void QuestionsManager_U3CStartU3Eb__9_1_m3BB0F3337056D50279A2E4B98A224558CC7F90F2 (void);
+// 0x000002E0 System.Void QuestionsManager/<Recorder>d__12::.ctor(System.Int32)
+extern void U3CRecorderU3Ed__12__ctor_mB7EBC5501E01C48F10655B5919200C043C6CE4DC (void);
+// 0x000002E1 System.Void QuestionsManager/<Recorder>d__12::System.IDisposable.Dispose()
+extern void U3CRecorderU3Ed__12_System_IDisposable_Dispose_mCF5488186E15EA9119728BFE8E1EC690854A2FBB (void);
+// 0x000002E2 System.Boolean QuestionsManager/<Recorder>d__12::MoveNext()
+extern void U3CRecorderU3Ed__12_MoveNext_mDCECBE307E66FBC2826B0F473C3C0AF21EBAFD9B (void);
+// 0x000002E3 System.Object QuestionsManager/<Recorder>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CRecorderU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9DD20B15A8FAF7447684CE2AEF3C01CB4217B730 (void);
+// 0x000002E4 System.Void QuestionsManager/<Recorder>d__12::System.Collections.IEnumerator.Reset()
+extern void U3CRecorderU3Ed__12_System_Collections_IEnumerator_Reset_m24F4B20B5E906514C5860A5A5E3AD51B24C35F7A (void);
+// 0x000002E5 System.Object QuestionsManager/<Recorder>d__12::System.Collections.IEnumerator.get_Current()
+extern void U3CRecorderU3Ed__12_System_Collections_IEnumerator_get_Current_m494D09ECC2562B6B13F127425B5C78EFAC32E3C2 (void);
 // 0x000002E6 System.Void UiManager::Start()
 extern void UiManager_Start_m2B96634CBB38D7249C7A0DDA38C0D01F16547CB7 (void);
 // 0x000002E7 System.Void UiManager::OK()
 extern void UiManager_OK_m4B1CDBF9F2DD45624FFB653C943624DECB5FC68F (void);
 // 0x000002E8 System.Void UiManager::.ctor()
 extern void UiManager__ctor_mF1223D076D6716E82EAF760F5337E462084CD2F0 (void);
-// 0x000002E9 System.Void UiManager::<Start>b__3_0()
-extern void UiManager_U3CStartU3Eb__3_0_mD7FD4EA0CA993CD1E9B755766937B5AA1B914628 (void);
+// 0x000002E9 System.Void UiManager::<Start>b__4_0()
+extern void UiManager_U3CStartU3Eb__4_0_m14C9CB04304A10ABD81114192F1D9FA453B43142 (void);
 // 0x000002EA System.Void ChatController::OnEnable()
 extern void ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7 (void);
 // 0x000002EB System.Void ChatController::OnDisable()
@@ -6656,18 +6656,18 @@ static Il2CppMethodPointer s_methodPointers[2972] =
 	QuestionsManager_Wrong_mCE33B737BC7D4AC99DC452A99C428635D57FBA90,
 	QuestionsManager_Recorder_m98E9BEA38FE99A2F0BFD01D6D009653E25F4B08C,
 	QuestionsManager__ctor_mE931E2A02D479349C8707708F03B8012F033CC86,
-	QuestionsManager_U3CStartU3Eb__8_0_m69A66B889899BFE4A77AECC162602E4DC3CBD8AE,
-	QuestionsManager_U3CStartU3Eb__8_1_m319F2B390552CBE4C78830683053CDA1F85EBEF5,
-	U3CRecorderU3Ed__11__ctor_mECA949FDAF5484DFD6D584617793C15D362D0B44,
-	U3CRecorderU3Ed__11_System_IDisposable_Dispose_m95E4872ADCE4097B01EB278562A1B73A99D7693D,
-	U3CRecorderU3Ed__11_MoveNext_mADB39695792156FF2CE1333381F7A92C00EEF177,
-	U3CRecorderU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9562D04810CA77291983AEC15E73038DA23BDF4E,
-	U3CRecorderU3Ed__11_System_Collections_IEnumerator_Reset_m14B77CB2570435F0AB60B4BA67E39BC5F88287D0,
-	U3CRecorderU3Ed__11_System_Collections_IEnumerator_get_Current_mF77D6147379915D16BB317A26C00B391245AC279,
+	QuestionsManager_U3CStartU3Eb__9_0_mE809DA53EC4AB4300321CDD15DA2C6E8372705A0,
+	QuestionsManager_U3CStartU3Eb__9_1_m3BB0F3337056D50279A2E4B98A224558CC7F90F2,
+	U3CRecorderU3Ed__12__ctor_mB7EBC5501E01C48F10655B5919200C043C6CE4DC,
+	U3CRecorderU3Ed__12_System_IDisposable_Dispose_mCF5488186E15EA9119728BFE8E1EC690854A2FBB,
+	U3CRecorderU3Ed__12_MoveNext_mDCECBE307E66FBC2826B0F473C3C0AF21EBAFD9B,
+	U3CRecorderU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9DD20B15A8FAF7447684CE2AEF3C01CB4217B730,
+	U3CRecorderU3Ed__12_System_Collections_IEnumerator_Reset_m24F4B20B5E906514C5860A5A5E3AD51B24C35F7A,
+	U3CRecorderU3Ed__12_System_Collections_IEnumerator_get_Current_m494D09ECC2562B6B13F127425B5C78EFAC32E3C2,
 	UiManager_Start_m2B96634CBB38D7249C7A0DDA38C0D01F16547CB7,
 	UiManager_OK_m4B1CDBF9F2DD45624FFB653C943624DECB5FC68F,
 	UiManager__ctor_mF1223D076D6716E82EAF760F5337E462084CD2F0,
-	UiManager_U3CStartU3Eb__3_0_mD7FD4EA0CA993CD1E9B755766937B5AA1B914628,
+	UiManager_U3CStartU3Eb__4_0_m14C9CB04304A10ABD81114192F1D9FA453B43142,
 	ChatController_OnEnable_m025CE203564D82A1CDCE5E5719DB07E29811D0B7,
 	ChatController_OnDisable_mD49D03719CAEBB3F59F24A7FA8F4FD30C8B54E46,
 	ChatController_AddToChatOutput_m9AB8FA8A32EA23F2E55795D8301ED0BF6A59F722,

@@ -8,7 +8,8 @@ public class UiManager : MonoBehaviour
     [SerializeField] private Button oK;
     private GameObject instruction;
     public GameObject next_Instruction;
-    
+    [SerializeField] private AnimationController animationController;
+
     void Start()
     {
         
@@ -27,6 +28,9 @@ public class UiManager : MonoBehaviour
         {
             next_Instruction.SetActive(true);
         }
+
+        animationController.enabled = true;
+        animationController.Player.enabled = true;
         Destroy(this.gameObject);
     }
 }
